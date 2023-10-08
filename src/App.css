@@ -1,0 +1,17 @@
+.app{
+    width: 50vw;
+    min-height: 50vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 17px;
+    color: black;
+    font-family: ui-sans-serif, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500 ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}

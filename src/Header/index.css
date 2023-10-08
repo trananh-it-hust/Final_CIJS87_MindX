@@ -1,0 +1,21 @@
+.header {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around;
+  margin: 10px;
+  border-bottom: 1px solid rgb(140, 135, 135) ;
+}
+.link {
+  text-decoration: none ; 
+  color: black;
+}
+.link:hover {
+  color: rgb(142, 142, 239);
+}
+.active-item {
+  color: rgb(142, 142, 239);
+  
+}
