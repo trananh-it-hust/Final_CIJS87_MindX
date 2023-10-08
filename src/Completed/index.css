@@ -1,7 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.completed{
+    width: 90%;
+    min-height: 100%;
+}
+
 .clp_item{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 i{
     cursor: pointer;
+}
+.del_all{
+    position: absolute;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    padding: 2px 7px;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border-radius: 10px;
+    bottom: 5px;
+    right: 25px;
+}
+.del_all button{
+    height: 40%;
+}
+.del_all p{
+    height: 40%;
+    font-size: 12px;
 }

@@ -27,7 +27,7 @@ const Completed = ({ data, setData }) => {
             </div>
           );
       })}
-      <div>
+      <div className="del_all">
         <button
           onClick={() => {
             setData([...data.filter((item) => item.done == false)]);
