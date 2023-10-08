@@ -5,3 +5,6 @@
     margin: 3px;
     padding: 2px;
 }
+.done{
+    text-decoration: line-through;
+}
